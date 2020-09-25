@@ -37,7 +37,7 @@ fn main() {
     env_logger::init();
     let matches = clap_app!(myapp =>
         (version: "0.0")
-        (author: "Bowen Xue.<bx3@uw.edu>")
+        (author: "Anonymous Submitter")
         (about: "simple blockchain network")
         (@arg known_peer: -c --connect ... [PEER] "Sets ip to connect to")
         (@arg side_node: -r --side_node ... [SIDE] "Sets side ip to connect to")
